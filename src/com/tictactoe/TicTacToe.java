@@ -56,28 +56,27 @@ public class TicTacToe implements ActionListener {
         } else if (a.getSource() == button[1]) {
             button[1].setText(letter);
             button[1].setEnabled(false);
-            //checkWinner();
 
         } else if (a.getSource() == button[2]) {
             button[2].setText(letter);
             button[2].setEnabled(false);
-           // checkWinner();
+            
         } else if (a.getSource() == button[3]) {
             button[3].setEnabled(false);
             button[3].setText(letter);
-            //checkWinner();
+  
         } else if (a.getSource() == button[4]) {
             button[4].setText(letter);
             button[4].setEnabled(false);
-            //checkWinner();
+
         } else if (a.getSource() == button[5]) {
             button[5].setText(letter);
             button[5].setEnabled(false);
-            //checkWinner();
+
         } else if (a.getSource() == button[6]) {
             button[6].setEnabled(false);
             button[6].setText(letter);
-           // checkWinner();
+  
         } else if (a.getSource() == button[7]) {
             button[7].setEnabled(false);
             button[7].setText(letter);
@@ -85,6 +84,7 @@ public class TicTacToe implements ActionListener {
             button[8].setText(letter);
             button[8].setEnabled(false);
         } else if (a.getSource() == resetButton) {
+            
             letter = "";
             count = 0;
             for(int i = 0; i < 9; i++) {
